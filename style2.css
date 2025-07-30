@@ -1,0 +1,204 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f6f2;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: #3c250a;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  background-color:#3c250a;
+  padding: 15px 30px;
+  
+  border-radius: 15px;
+}
+nav a{
+  color:white;
+  text-decoration: none;
+  background-color: #653f0f;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+nav a:hover{
+box-shadow: 6px 10px 38px -2px rgba(66, 68, 90, 1);
+background-color: #f3f0ed;
+color: #3c250a;
+transition: 1.5s;
+font-size: 20px;
+}
+
+
+nav{
+box-shadow: 2px 3px 10px -2px rgba(66, 68, 90, 1);
+transition: 0.8s;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+section h1 {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.2;
+  margin: 0 20px 10px;
+}
+
+button {
+  background-color: #3c250a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button:nth-of-type(2) {
+  background-color: transparent;
+  color: #3c250a;
+  border: 2px solid #3c250a;
+}
+
+.menu-section {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.menu-section div {
+  text-align: center;
+}
+
+.menu-title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.menu-section img {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.menu-section p {
+  font-weight: bold;
+  margin-top: 8px;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+.menu-section img{
+  transition:  0.7s ;
+  box-shadow: 2px 3px 10px -2px rgba(66, 68, 90, 1);
+}
+
+.menu-section img:hover{
+  transform: scale(1.1);
+  transition:  0.6s ;
+  box-shadow: 6px 10px 38px -2px rgba(66, 68, 90, 1);
+}
+
+button:hover{
+box-shadow: 6px 10px 38px -2px rgba(66, 68, 90, 1);
+background-color: #653f0f;
+transition: 0.8s;
+font-size: 20px;
+}
+
+
+button{
+box-shadow: 2px 3px 10px -2px rgba(66, 68, 90, 1);
+transition: 0.8s;
+}
+
+.gop img{
+  border-radius: 40px;
+  margin-left: 25px;
+  
+}
+
+SHARES h2{
+  font-size: 200px;
+}
+
+.shares{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.wear{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.wear h1{
+  text-align: left;
+}
+
+.wear img{
+  border-radius: 40px;
+}
+.footer{
+  margin-top: 10px;
+  background-color: #3c250a;
+  color:white;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 15px;
+}
+
+.foot {
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    border: 5px double rgb(46, 40, 29);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(66, 56, 43);
+    border-radius: 25px;
+    margin-left: 25px;
+}
+
+.foot1{
+  text-align: center;
+    padding: 10px;
+    border: 5px double rgb(46, 40, 29);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(66, 56, 43);
+    border-radius: 50%;
+}
+
+.gallery {
+    display: flex;
+    width: 960px;
+    justify-content: center;
+}
